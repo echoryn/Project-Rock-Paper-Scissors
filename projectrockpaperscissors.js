@@ -12,3 +12,11 @@ function getComputerChoice(randomNum) {
     
 console.log (getComputerChoice (randomNum));
 }
+
+/* 
+    Function needs to
+        Generate a random WHOLE number from 1-3
+        If it is = 1, print Rock
+        If it is = 2, print Paper
+        If it is = 3, print Scissors
+*/
