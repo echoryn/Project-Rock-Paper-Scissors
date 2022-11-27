@@ -15,3 +15,7 @@ function getComputerChoice () {
 }
 
 getComputerChoice ();
+
+/* 
+let playerSelection = prompt('Type Rock or Paper or Scissors'); 
+*/
