@@ -1,4 +1,4 @@
-/*function getComputerChoice() {
+function getComputerChoice() {
     let randomNum = (Math.floor(Math.random() * 3) + 1);
 
     if (randomNum === 1) {
@@ -13,9 +13,6 @@
         console.log('scissors');
     }
 }
-
-getComputerChoice();
-*/
 
 //Test if if else statement is correct
 function playRound (playerSelection, computerSelection) {
