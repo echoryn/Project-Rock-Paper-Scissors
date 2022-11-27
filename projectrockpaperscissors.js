@@ -20,11 +20,12 @@ getComputerChoice();
 //Test if if else statement is correct
 function letsPlay (playerSelection, computerSelection) {
 
-    let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
+    /*let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
     console.log(playerSelection);
 
     let computerSelection = getComputerChoice();
-
+    */
+   
     if (playerSelection === 'rock' && computerSelection === 'paper') {
     console.log ('You Lose! Paper beats Rock!');
     }
