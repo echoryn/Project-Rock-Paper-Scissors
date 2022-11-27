@@ -64,3 +64,7 @@ else if (playerSelection === 'rock' && computerSelection === 'rock') {
 else if (playerSelection === 'scissors' && computerSelection === 'scissors') {
     console.log ("It's a Tie");
 }
+
+else {
+    console.log ('Did you type that correctly? Please try again');
+}
