@@ -75,3 +75,5 @@ function game () {
         playRound (playerSelection, computerSelection);
     }
 }
+
+console.log(game ());
