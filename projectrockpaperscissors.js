@@ -1,3 +1,4 @@
+//Observe the difference b/w console.log vs. return
 function getComputerChoice() {
     let randomNum = (Math.floor(Math.random() * 3) + 1);
 
