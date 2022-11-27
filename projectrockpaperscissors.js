@@ -78,7 +78,6 @@ function game () {
         
         console.log (`Round ${i+1}`);
     
-        playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
     }
 }
 
