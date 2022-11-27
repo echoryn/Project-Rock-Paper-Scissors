@@ -29,7 +29,7 @@ let computerSelection = getComputerChoice;
 playerSelection = 'rock';
 computerSelection = 'paper';
 
-if (playerSelection === 'Rock' && computerSelection === 'Paper') {
+if (playerSelection === 'rock' && computerSelection === 'paper') {
 console.log ('You Win! Paper beats Rock!');
 }
 
