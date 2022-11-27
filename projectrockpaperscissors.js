@@ -75,7 +75,10 @@ console.log(playRound(playerSelection, computerSelection));
 function game () {
     for (let i = 0; i < 5; i++) {
         playRound (playerSelection, computerSelection);
+        
         console.log (`Round ${i+1}`);
+    
+        playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
     }
 }
 
