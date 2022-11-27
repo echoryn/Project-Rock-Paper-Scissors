@@ -65,8 +65,6 @@ function playRound (playerSelection, computerSelection) {
     }
 }
 
-playRound ('paper', 'scissors');
-
 const playerSelection = 'rock';
 const computerSelection = getComputerChoice();
 console.log(playRound(playerSelection, computerSelection));
