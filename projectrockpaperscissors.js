@@ -1,4 +1,4 @@
-function getComputerChoice () {
+function getComputerChoice() {
     let randomNum = (Math.floor(Math.random() * 3) + 1);
 
     if (randomNum === 1) {
@@ -14,7 +14,7 @@ function getComputerChoice () {
     }
 }
 
-getComputerChoice ();
+getComputerChoice();
 
 /* 
 let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
