@@ -1,3 +1,4 @@
+/*
 function getComputerChoice() {
     let randomNum = (Math.floor(Math.random() * 3) + 1);
 
@@ -15,10 +16,23 @@ function getComputerChoice() {
 }
 
 getComputerChoice();
+*/
 
-/* 
+/*
 let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
 console.log(playerSelection);
 
-let computerSelection = getCompuerChoice;
+let computerSelection = getComputerChoice;
 */
+
+//Test if if else statement is correct
+playerSelection = rock;
+computerSelection = paper;
+
+if (playerSelection === 'Rock' && computerSelection === 'Paper') {
+console.log ('You Win! Paper beats Rock!');
+}
+
+else {
+console.log ('Nono');
+}
