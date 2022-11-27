@@ -69,3 +69,7 @@ const playerSelection = 'rock';
 const computerSelection = getComputerChoice();
 console.log(playRound(playerSelection, computerSelection));
 //return the results of this function call, NOT console.log() because we'll use what you return later on
+
+function game () {
+    playRound
+}
