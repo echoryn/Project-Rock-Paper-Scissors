@@ -67,5 +67,5 @@ function letsPlay (playerSelection, computerSelection) {
     }
 }
 
-letsPlay (rock, paper);
+letsPlay ('rock', 'paper');
 
