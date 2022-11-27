@@ -17,5 +17,6 @@ function getComputerChoice () {
 getComputerChoice ();
 
 /* 
-let playerSelection = prompt('Type Rock or Paper or Scissors'); 
+let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
+console.log(playerSelection);
 */
