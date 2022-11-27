@@ -25,7 +25,7 @@ function letsPlay (playerSelection, computerSelection) {
 
     let computerSelection = getComputerChoice();
     */
-   
+
     if (playerSelection === 'rock' && computerSelection === 'paper') {
     console.log ('You Lose! Paper beats Rock!');
     }
@@ -66,4 +66,6 @@ function letsPlay (playerSelection, computerSelection) {
     console.log ('Did you type that correctly? Please try again');
     }
 }
+
+letsPlay (rock, paper);
 
