@@ -19,4 +19,6 @@ getComputerChoice();
 /* 
 let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
 console.log(playerSelection);
+
+let computerSelection = getCompuerChoice;
 */
