@@ -14,6 +14,7 @@ function getComputerChoice() {
     }
 }
 
+
 //Test if if else statement is correct
 function playRound (playerSelection, computerSelection) {
 
