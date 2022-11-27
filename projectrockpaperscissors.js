@@ -18,7 +18,7 @@ getComputerChoice();
 */
 
 //Test if if else statement is correct
-function letsPlay (playerSelection, computerSelection) {
+function playRound (playerSelection, computerSelection) {
 
     /*let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
     console.log(playerSelection);
@@ -67,7 +67,7 @@ function letsPlay (playerSelection, computerSelection) {
     }
 }
 
-letsPlay ('paper', 'scissors');
+playRound ('paper', 'scissors');
 
 const playerSelection = 'rock';
 const computerSelection = getComputerChoice();
