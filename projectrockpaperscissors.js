@@ -26,8 +26,8 @@ let computerSelection = getComputerChoice;
 */
 
 //Test if if else statement is correct
-playerSelection = rock;
-computerSelection = paper;
+playerSelection = 'rock';
+computerSelection = 'paper';
 
 if (playerSelection === 'Rock' && computerSelection === 'Paper') {
 console.log ('You Win! Paper beats Rock!');
