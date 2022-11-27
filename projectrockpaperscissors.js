@@ -1,21 +1,18 @@
-let getComputerChoice;
-
 function getComputerChoice() {
     let randomNum = (Math.floor(Math.random() * 3) + 1);
 
     if (randomNum === 1) {
-        console.log('rock');
+        return('rock');
     }
 
     else if (randomNum === 2) {
-        console.log('paper');
+        return('paper');
     }
 
     else if (randomNum === 3) {
-        console.log('scissors');
+        return('scissors');
     }
 }
-
 
 //Test if if else statement is correct
 function playRound (playerSelection, computerSelection) {
@@ -66,7 +63,6 @@ function playRound (playerSelection, computerSelection) {
     console.log ('Did you type that correctly? Please try again');
     }
 }
-
 
 const playerSelection = 'rock';
 const computerSelection = getComputerChoice();
