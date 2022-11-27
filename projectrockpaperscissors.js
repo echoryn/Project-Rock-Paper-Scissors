@@ -21,7 +21,7 @@ getComputerChoice();
 let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
 console.log(playerSelection);
 
-let computerSelection = getComputerChoice();
+let computerSelection = getComputerChoice().toLowerCase();
 
 if (playerSelection === 'rock' && computerSelection === 'paper') {
 console.log ('You Lose! Paper beats Rock!');
