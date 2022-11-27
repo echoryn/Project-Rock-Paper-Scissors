@@ -2,15 +2,15 @@ function getComputerChoice() {
     let randomNum = (Math.floor(Math.random() * 3) + 1);
 
     if (randomNum === 1) {
-        console.log(randomNum + ' Rock');
+        console.log('Rock');
     }
 
     else if (randomNum === 2) {
-        console.log(randomNum + ' Paper');
+        console.log('Paper');
     }
 
     else if (randomNum === 3) {
-        console.log(randomNum + ' Scissors');
+        console.log('Scissors');
     }
 }
 
