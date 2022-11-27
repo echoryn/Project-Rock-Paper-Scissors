@@ -23,39 +23,39 @@ console.log(playerSelection);
 
 let computerSelection = getComputerChoice();
 
-if (playerSelection === 'rock' && computerSelection === 'paper') {
+if (playerSelection === 'rock' && getComputerChoice() === 'paper') {
 console.log ('You Lose! Paper beats Rock!');
 }
 
-else if (playerSelection === 'rock' && computerSelection === 'scissors') {
+else if (playerSelection === 'rock' && getComputerChoice() === 'scissors') {
 console.log ('You Win!  Rock beats Scissors!');
 }
 
-else if (playerSelection === 'scissors' && computerSelection === 'paper') {
+else if (playerSelection === 'scissors' && getComputerChoice() === 'paper') {
 console.log ('You Win!  Scissors beats Paper!');
 }
 
-else if (playerSelection === 'scissors' && computerSelection === 'rock') {
+else if (playerSelection === 'scissors' && getComputerChoice() === 'rock') {
 console.log ('You Lose! Rock beats Scissors!');
 }
 
-else if (playerSelection === 'paper' && computerSelection === 'scissors') {
+else if (playerSelection === 'paper' && getComputerChoice() === 'scissors') {
 console.log ('You Lose! Scissors beats Paper!');
 }
 
-else if (playerSelection === 'paper' && computerSelection === 'rock') {
+else if (playerSelection === 'paper' && getComputerChoice() === 'rock') {
 console.log ('You Win! Paper beats Rock!');
 }
 
-else if (playerSelection === 'paper' && computerSelection === 'paper') {
+else if (playerSelection === 'paper' && getComputerChoice() === 'paper') {
     console.log ("It's a Tie");
 }
 
-else if (playerSelection === 'rock' && computerSelection === 'rock') {
+else if (playerSelection === 'rock' && getComputerChoice() === 'rock') {
     console.log ("It's a Tie");
 }
 
-else if (playerSelection === 'scissors' && computerSelection === 'scissors') {
+else if (playerSelection === 'scissors' && getComputerChoice() === 'scissors') {
     console.log ("It's a Tie");
 }
 
