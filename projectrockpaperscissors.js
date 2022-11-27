@@ -65,7 +65,8 @@ function playRound (playerSelection, computerSelection) {
     }
 }
 
-const playerSelection = 'rock';
+const playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
+console.log(playerSelection);
 const computerSelection = getComputerChoice();
 console.log(playRound(playerSelection, computerSelection));
 //return the results of this function call, NOT console.log() because we'll use what you return later on
