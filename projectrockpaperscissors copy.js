@@ -1,3 +1,4 @@
+//Observe the difference b/w console.log vs. return
 function getComputerChoice() {
     let randomNum = (Math.floor(Math.random() * 3) + 1);
 
@@ -16,6 +17,13 @@ function getComputerChoice() {
 
 //Test if if else statement is correct
 function playRound (playerSelection, computerSelection) {
+
+    /*let playerSelection = (prompt('Type Rock or Paper or Scissors')).toLowerCase();
+    console.log(playerSelection);
+
+    let computerSelection = getComputerChoice();
+    */
+
     if (playerSelection === 'rock' && computerSelection === 'paper') {
     console.log ('You Lose! Paper beats Rock!');
     }
@@ -66,7 +74,6 @@ console.log(playRound(playerSelection, computerSelection));
 
 function game () {
     for (let i = 0; i < 5; i++) {
-        
         playRound (playerSelection, computerSelection);
         
         console.log (`Round ${i+1}`);
