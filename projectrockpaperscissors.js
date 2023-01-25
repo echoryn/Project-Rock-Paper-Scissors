@@ -1,3 +1,4 @@
+function getComputerChoice () {
 const randomNumber = Math.floor(Math.random() * 3) + 1;
 if (randomNumber === 1) {
     console.log ( 'Rock' );
@@ -10,4 +11,5 @@ else if (randomNumber === 3) {
 }
 else {
     console.log ( 'Try again' );
+}
 }
