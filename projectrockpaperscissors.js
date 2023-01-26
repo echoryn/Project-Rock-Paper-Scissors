@@ -16,3 +16,9 @@ else {
 
 let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
 let playerSelection = playerAnswer.toLowerCase();
+
+let player = 'rock'
+let computer = 'paper'
+
+let oneRound = (player === 'rock') && (computer === 'paper') ? 'Player Wins' :
+    'Computer Wins'; 
