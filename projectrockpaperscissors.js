@@ -1,4 +1,4 @@
-/*function getComputerChoice () {
+/* function getComputerChoice () {
 const randomNumber = Math.floor(Math.random() * 3) + 1;
 if (randomNumber === 1) {
     console.log ( 'rock' );
@@ -48,4 +48,4 @@ function playRound(player, computer) {
  
  const player = "rock";
  const computer = getComputerChoice();
- console.log(playRound(player, computer));
+ console.log(play, computer, playRound(player, computer));
