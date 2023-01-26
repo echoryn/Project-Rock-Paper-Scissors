@@ -30,3 +30,5 @@ let oneRound = (player === 'rock') && (computer === 'paper') ? 'Computer Wins' :
     (player === 'paper') && (computer === 'paper') ? "It's a Tie" :
     (player === 'paper') && (computer === 'scissors') ? "Computer Wins" :
     'Try Again'; 
+
+oneRound = console.log (getComputerChoice(), oneRound)
