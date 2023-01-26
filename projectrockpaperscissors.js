@@ -14,4 +14,5 @@ else {
 }
 }
 
-let playerSelection = prompt ('Please enter Rock, Paper, or Scissors');
+let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
+let playerSelection = playerAnswer.toLowerCase();
