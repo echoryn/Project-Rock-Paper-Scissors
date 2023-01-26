@@ -26,5 +26,7 @@ let oneRound = (player === 'rock') && (computer === 'paper') ? 'Computer Wins' :
     (player === 'scissors') && (computer === 'rock') ? "Computer Wins" :
     (player === 'scissors') && (computer === 'paper') ? "Player Wins" :
     (player === 'scissors') && (computer === 'scissors') ? "It's a Tie" :
+    (player === 'paper') && (computer === 'rock') ? "Player Wins" :
+    (player === 'paper') && (computer === 'paper') ? "It's a Tie" :
+    (player === 'paper') && (computer === 'scissors') ? "Computer Wins" :
     'Try Again'; 
-
