@@ -20,5 +20,11 @@ let playerSelection = playerAnswer.toLowerCase();
 let player = 'rock'
 let computer = 'paper'
 
-let oneRound = (player === 'rock') && (computer === 'paper') ? 'Player Wins' :
-    'Computer Wins'; 
+let oneRound = (player === 'rock') && (computer === 'paper') ? 'Computer Wins' :
+    (player === 'rock') && (computer === 'scissors') ? 'Player Wins' :
+    (player === 'rock') && (computer === 'rock') ? "It's a Tie" :
+    (player === 'scissors') && (computer === 'rock') ? "Computer Wins" :
+    (player === 'scissors') && (computer === 'paper') ? "Player Wins" :
+    (player === 'scissors') && (computer === 'scissors') ? "It's a Tie" :
+    'Try Again'; 
+
