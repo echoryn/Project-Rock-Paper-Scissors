@@ -13,3 +13,5 @@ else {
     console.log ( 'Try again' );
 }
 }
+
+let playerSelection = prompt ('Please enter Rock, Paper, or Scissors');
