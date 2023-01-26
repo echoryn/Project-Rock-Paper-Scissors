@@ -1,24 +1,19 @@
 function getComputerChoice () {
 const randomNumber = Math.floor(Math.random() * 3) + 1;
 if (randomNumber === 1) {
-    console.log ( 'Rock' );
+    console.log ( 'rock' );
 }
 else if (randomNumber === 2) {
-    console.log ( 'Paper' );
+    console.log ( 'paper' );
 }
 else if (randomNumber === 3) {
-    console.log ( 'Scissors' );
+    console.log ( 'scissors' );
 }
 else {
     console.log ( 'Try again' );
 }
 }
 
-let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
-let playerSelection = playerAnswer.toLowerCase();
-
-let player = 'rock'
-let computer = 'paper'
 
 function playRound(player, computer) {
     
@@ -37,4 +32,6 @@ function playRound(player, computer) {
      alert (oneRound);
  }
  
- playRound('paper', 'paper');
+ const player = "rock";
+ const computer = getComputerChoice();
+ console.log(playRound(player, computer));
