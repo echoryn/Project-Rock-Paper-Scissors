@@ -14,6 +14,19 @@ else {
 }
 }
 
+function getComputerChoice () {
+    const randomNumber = Math.floor(Math.random() * 3) + 1;
+    let computerAnswer =
+    (randomNumber === 1) ? 'rock':
+    (randomNumber === 2) ? 'paper':
+    (randomNumber === 3) ? 'scissors':
+    'Try Again';
+    
+    return (computerAnswer);
+}
+
+let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
+let player = playerAnswer.toLowerCase();
 
 function playRound(player, computer) {
     
@@ -29,7 +42,7 @@ function playRound(player, computer) {
      (player === 'paper') && (computer === 'scissors') ? "Computer Wins" :
      'Try Again'; 
      
-     alert (oneRound);
+     return (oneRound);
  }
  
  const player = "rock";
