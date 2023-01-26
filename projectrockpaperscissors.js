@@ -47,7 +47,8 @@ function playRound(player, computer) {
  }
  
  let computer = getComputerChoice();
- console.log(player, computer, playRound(player, computer));
+    console.log(player, computer, playRound(player, computer));
 
  for (let i = 0; i < 5; i++) {
-    console.log (i);
+   console.log(player, computer, i, playRound ('rock', getComputerChoice()));
+}
