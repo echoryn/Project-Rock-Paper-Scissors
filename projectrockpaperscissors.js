@@ -60,6 +60,7 @@ function playRound(player, computer) {
 
 function game() {
 for (let i = 0; i < 5; i++) {
+    playRound();
     console.log(i, player, computer, playRound (player, computer));
     }    
 }
