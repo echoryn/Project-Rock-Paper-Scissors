@@ -66,6 +66,14 @@ for (let i = 0; i < 5; i++) {
 }
 */
 
+/*Below function check why if console log is deleted, 
+meaning only playRound is left, 
+when game(); function is called in the console,
+it returns undefined,
+even if playRound function has console.log command to display the results.
+Maybe should use return?
+*/
+
 /*
 function game() {
     for (let i = 0; i < 5; i++) {
