@@ -61,4 +61,5 @@ function game() {
 for (let i = 0; i < 5; i++) {
     playRound(player, computer);
     }
+    console.log(i, player, computer, playRound (player, computer));
 }
