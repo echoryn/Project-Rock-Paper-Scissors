@@ -64,10 +64,10 @@ for (let i = 0; i < 5; i++) {
         return("Computer Wins");
     }
     else if (playRound === 'Player Wins') { 
-        return("Try again");
+        return("Player Wins");
     }
-    } 
-    console.log (game())   
+    console.log(i, player, computer, playRound (player, computer), game());
+    }    
 }
 
 /*Below function check why if console log is deleted, 
