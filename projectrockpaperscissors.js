@@ -58,13 +58,11 @@ function playRound(player, computer) {
 }
 */
 
-/*
 function game() {
 for (let i = 0; i < 5; i++) {
     console.log(i, player, computer, playRound (player, computer));
     }    
 }
-*/
 
 /*Below function check why if console log is deleted, 
 meaning only playRound is left, 
