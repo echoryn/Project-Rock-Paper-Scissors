@@ -66,7 +66,7 @@ for (let i = 0; i < 5; i++) {
     else if (playRound === 'Player Wins') { 
         return("Player Wins");
     }
-    console.log(i, player, computer, playRound (player, computer), game());
+    console.log(i, player, computer, playRound (player, computer));
     }    
 }
 
