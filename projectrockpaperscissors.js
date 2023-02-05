@@ -47,6 +47,8 @@ function playRound(player, computer) {
  const computer = getComputerChoice();
  console.log(player, computer, playRound (player, computer));
 
+function game()
+
  /*
  let computer = getComputerChoice();
 
