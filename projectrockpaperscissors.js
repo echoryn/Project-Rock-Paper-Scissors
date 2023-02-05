@@ -60,6 +60,12 @@ function playRound(player, computer) {
 
 function game() {
 for (let i = 0; i < 5; i++) {
+    if (playRound === 'Computer Wins') { 
+        console.log("Computer Wins");
+    }
+    else if (playRound === 'Player Wins') { 
+        console.log("Try again");
+    }
     console.log(i, player, computer, playRound (player, computer));
     }    
 }
