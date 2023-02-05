@@ -26,9 +26,6 @@ function getComputerChoice () {
     return (computerAnswer);
 }
 
-let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
-let player = playerAnswer.toLowerCase();
-
 function playRound(player, computer) {
     
     let oneRound = 
@@ -45,7 +42,12 @@ function playRound(player, computer) {
      
      return (oneRound);
  }
- 
+
+ const player = "rock";
+ const computerSelection = getComputerChoice();
+ console.log(playRound(player, computer));
+
+ /*
  let computer = getComputerChoice();
 
  for (let i = 0; i < 5; i++) {
@@ -54,3 +56,4 @@ function playRound(player, computer) {
     let computer = getComputerChoice();
     console.log(player, computer, i, playRound (player, computer));
 }
+*/
