@@ -66,7 +66,7 @@ for (let i = 0; i < 5; i++) {
     else if (playRound === 'Player Wins') { 
         console.log("Try again");
     }
-    console.log(i, player, computer, playRound (player, computer));
+    
     }    
 }
 
