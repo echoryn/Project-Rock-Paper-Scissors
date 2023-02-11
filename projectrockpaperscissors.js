@@ -38,16 +38,15 @@ function game() {
     playRound (player, computer);
     console.log(player, computer, i);
     console.log(playerScore, computerScore);
-    
-    if ((i === 5) && (playerScore > computerScore)) {
-    console.log('Player Wins');
-    } else if ((i === 5) && (computerScore > playerScore)) {
-    console.log('Computer Wins');
-    } else if ((i===5) && (computerScore === playerScore)) {
-    console.log("It's a Tie");
+    let winner = ((i === 5) && (playerScore > computerScore)) ?
+    console.log('Player Wins')
+    : ((i === 5) && (computerScore > playerScore)) ?
+    console.log('Computer Wins')
+    : ((i===5) && (computerScore === playerScore)) ?
+    console.log("It's a Tie")
+    : console.log('Keep playing');
     }
-}
-}
+ }
 
 game();
 
