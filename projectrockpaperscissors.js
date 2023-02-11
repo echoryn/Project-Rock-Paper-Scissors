@@ -26,7 +26,7 @@ function getComputerChoice () {
     return (computerAnswer);
 }
 
-/* function playRound(player, computer) {
+function playRound(player, computer) {
     
     let oneRound = 
      (player === 'rock') && (computer === 'paper') ? 'Computer Wins' :
@@ -42,7 +42,6 @@ function getComputerChoice () {
      
      return (oneRound);
  }
- */
 
 /* const player = "rock"; */
 /* const computer = getComputerChoice(); */
@@ -53,8 +52,15 @@ function getComputerChoice () {
     let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
     let player = playerAnswer.toLowerCase();
     let computer = getComputerChoice();
-    let playerScore = x;
-    let computerScore = y; 
+    let playerScore = 0;
+    let computerScore = 0; 
+
+    if ('Player Wins') {
+        playerScore+1;
+    }
+    else if ('Computer Wins') {
+        computerScore+1;
+    }
     console.log(player, computer, i, playRound (player, computer));
     }
 }
