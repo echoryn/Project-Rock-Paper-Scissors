@@ -51,8 +51,6 @@ function game() {
 
 game();
 
-console.log(winner);
-
 /*Below function check why if console log is deleted, 
 meaning only playRound is left, 
 when game(); function is called in the console,
