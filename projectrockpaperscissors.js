@@ -43,10 +43,6 @@ function playRound(player, computer) {
      return (oneRound);
  }
 
-/* const player = "rock"; */
-/* const computer = getComputerChoice(); */
-/* console.log(player, computer, playRound (player, computer)); */
-
 let playerScore = 0;
 let computerScore = 0; 
 
