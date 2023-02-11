@@ -62,6 +62,7 @@ function playRound(player, computer) {
         computerScore+1;
     }
     console.log(player, computer, i, playRound (player, computer));
+    console.log(playerScore, computerScore);
     }
 }
 
