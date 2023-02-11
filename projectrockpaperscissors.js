@@ -47,12 +47,15 @@ function playRound(player, computer) {
  const computer = getComputerChoice();
 /* console.log(player, computer, playRound (player, computer)); */
 
- function game()
+ function game() {
  for (let i = 0; i < 5; i++) {
     let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
     let player = playerAnswer.toLowerCase();
     console.log(player, computer, i, playRound (player, computer));
+    }
 }
+
+game();
 
 /*Below function check why if console log is deleted, 
 meaning only playRound is left, 
