@@ -36,7 +36,7 @@ function game() {
     let player = playerAnswer.toLowerCase();
     let computer = getComputerChoice(); 
     playRound (player, computer);
-    console.log(player, computer, i);
+    console.log(player, computer, 'round ' + i);
     console.log(playerScore, computerScore);
     
     if ((i === 5) && (playerScore > computerScore)) {
