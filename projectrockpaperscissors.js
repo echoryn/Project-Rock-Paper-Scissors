@@ -36,9 +36,10 @@ function game() {
     let player = playerAnswer.toLowerCase();
     let computer = getComputerChoice(); 
     playRound (player, computer);
-    console.log(player, computer, 'round ' + i);
+    console.log('round ' + i, player, computer);
     console.log(playerScore, computerScore);
     
+    //Have to add (i===5), if not it will display for every round
     if ((i === 5) && (playerScore > computerScore)) {
     console.log('Player Wins');
     } else if ((i === 5) && (computerScore > playerScore)) {
