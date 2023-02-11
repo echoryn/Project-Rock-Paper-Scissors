@@ -27,16 +27,11 @@ function getComputerChoice () {
 }
 
 function playRound(player, computer) {
-
-     if (player === 'rock') && (computer === 'paper') {
-        computerScore++;
-    }
-    else (player === 'rock') && (computer === 'scissors') {
-        playerScore++;
-    }
-
-
-    /* (player === 'rock') && (computer === 'rock') ? "It's a Tie" :
+    
+    let oneRound = 
+     (player === 'rock') && (computer === 'paper') ? computerScore++ :
+     (player === 'rock') && (computer === 'scissors') ? playerScore++ :
+     (player === 'rock') && (computer === 'rock') ? "It's a Tie" :
      (player === 'scissors') && (computer === 'rock') ? "Computer Wins" :
      (player === 'scissors') && (computer === 'paper') ? "Player Wins" :
      (player === 'scissors') && (computer === 'scissors') ? "It's a Tie" :
@@ -44,7 +39,7 @@ function playRound(player, computer) {
      (player === 'paper') && (computer === 'paper') ? "It's a Tie" :
      (player === 'paper') && (computer === 'scissors') ? "Computer Wins" :
      'Try Again'; 
-     */
+     
      return (oneRound);
  }
 
@@ -58,15 +53,19 @@ let computerScore = 0;
 function game() {
  for (let i = 0; i < 5; i++) {
  
-    let player = 'rock';
-    let computer = 'scissors';
-
-/*    let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
+    let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
     let player = playerAnswer.toLowerCase();
-    let computer = getComputerChoice(); */
+    let computer = getComputerChoice(); 
 
     console.log(player, computer, i, playRound (player, computer));
-    
+
+    if (playRound === 'Player Wins') {
+        playerScore++;
+    }
+    else if (playRound === 'Computer Wins') {
+        computerScore++;
+    }
+
     console.log(playerScore, computerScore);
     }
 }
