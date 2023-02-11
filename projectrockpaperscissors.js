@@ -27,10 +27,15 @@ function getComputerChoice () {
 }
 
 function playRound(player, computer) {
-    
-    let oneRound = 
-     (player === 'rock') && (computer === 'paper') ? computerScore++ :
-     (player === 'rock') && (computer === 'scissors') ? playerScore++ :
+
+     if (player === 'rock') && (computer === 'paper') {
+        computerScore++;
+    }
+    else (player === 'rock') && (computer === 'scissors') {
+        playerScore++;
+    }
+
+
     /* (player === 'rock') && (computer === 'rock') ? "It's a Tie" :
      (player === 'scissors') && (computer === 'rock') ? "Computer Wins" :
      (player === 'scissors') && (computer === 'paper') ? "Player Wins" :
@@ -61,14 +66,7 @@ function game() {
     let computer = getComputerChoice(); */
 
     console.log(player, computer, i, playRound (player, computer));
-
-    if (playRound === 'Player Wins') {
-        playerScore++;
-    }
-    else if (playRound === 'Computer Wins') {
-        computerScore++;
-    }
-
+    
     console.log(playerScore, computerScore);
     }
 }
