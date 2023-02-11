@@ -51,11 +51,6 @@ function game() {
 
 game();
 
-/*let winner = (playerScore > computerScore) ? 'Player Wins'
-: (computerScore > playerScore) ? 'Computer Wins'
-: (computerScore === playerScore) ? "It's a Tie"
-: "Try again"
-
 console.log(winner);
 
 /*Below function check why if console log is deleted, 
