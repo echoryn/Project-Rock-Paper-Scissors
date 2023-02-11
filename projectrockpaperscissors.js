@@ -26,7 +26,7 @@ function getComputerChoice () {
     return (computerAnswer);
 }
 
-function playRound(player, computer) {
+/* function playRound(player, computer) {
     
     let oneRound = 
      (player === 'rock') && (computer === 'paper') ? 'Computer Wins' :
@@ -42,6 +42,7 @@ function playRound(player, computer) {
      
      return (oneRound);
  }
+ */
 
 /* const player = "rock"; */
 /* const computer = getComputerChoice(); */
