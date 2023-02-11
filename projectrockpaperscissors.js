@@ -29,8 +29,8 @@ function getComputerChoice () {
 function playRound(player, computer) {
     
     let oneRound = 
-     (player === 'rock') && (computer === 'paper') ? 'Computer Wins' :
-     (player === 'rock') && (computer === 'scissors') ? 'Player Wins' :
+     (player === 'rock') && (computer === 'paper') ? computerScore++ :
+     (player === 'rock') && (computer === 'scissors') ? playerScore++ :
      (player === 'rock') && (computer === 'rock') ? "It's a Tie" :
      (player === 'scissors') && (computer === 'rock') ? "Computer Wins" :
      (player === 'scissors') && (computer === 'paper') ? "Player Wins" :
