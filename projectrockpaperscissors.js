@@ -52,9 +52,13 @@ let computerScore = 0;
 
 function game() {
  for (let i = 0; i < 5; i++) {
-    let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
+ 
+    let player = 'rock';
+    let computer = 'scissors';
+
+/*    let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
     let player = playerAnswer.toLowerCase();
-    let computer = getComputerChoice();
+    let computer = getComputerChoice(); */
 
     console.log(player, computer, i, playRound (player, computer));
 
