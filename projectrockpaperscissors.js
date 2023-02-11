@@ -52,7 +52,9 @@ function getComputerChoice () {
  for (let i = 0; i < 5; i++) {
     let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
     let player = playerAnswer.toLowerCase();
-    let computer = getComputerChoice(); 
+    let computer = getComputerChoice();
+    let playerScore = x;
+    let computerScore = y; 
     console.log(player, computer, i, playRound (player, computer));
     }
 }
