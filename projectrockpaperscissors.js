@@ -30,7 +30,7 @@ let playerScore = 0;
 let computerScore = 0; 
 
 function game() {
- for (let i = 0; i < 5; i++) {
+ for (let i = 1; i < 6; i++) {
  
     let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors'); //playerAnswer should be inside for loop or else if moved outside, for loop will repeat 5 times with the same answer
     let player = playerAnswer.toLowerCase();
@@ -38,12 +38,20 @@ function game() {
     playRound (player, computer);
     console.log(player, computer, i);
     console.log(playerScore, computerScore);
+    
+    if ((i === 5) && (playerScore > computerScore)) {
+    console.log('Player Wins');
+    } else if ((i === 5) && (computerScore > playerScore)) {
+    console.log('Computer Wins');
+    } else if ((i===5) && (computerScore === playerScore)) {
+    console.log("It's a Tie");
     }
+}
 }
 
 game();
 
-let winner = (playerScore > computerScore) ? 'Player Wins'
+/*let winner = (playerScore > computerScore) ? 'Player Wins'
 : (computerScore > playerScore) ? 'Computer Wins'
 : (computerScore === playerScore) ? "It's a Tie"
 : "Try again"
