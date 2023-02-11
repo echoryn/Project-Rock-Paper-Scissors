@@ -49,7 +49,7 @@ let computerScore = 0;
 function game() {
  for (let i = 0; i < 5; i++) {
  
-    let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
+    let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors'); //playerAnswer should be inside for loop or else if moved outside, for loop will repeat 5 times with the same answer
     let player = playerAnswer.toLowerCase();
     let computer = getComputerChoice(); 
     playRound (player, computer);
