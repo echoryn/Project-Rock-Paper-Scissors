@@ -47,7 +47,7 @@ function playRound(player, computer) {
 /* const computer = getComputerChoice(); */
 /* console.log(player, computer, playRound (player, computer)); */
 
-/* function game() {
+function game() {
  for (let i = 0; i < 5; i++) {
     let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
     let player = playerAnswer.toLowerCase();
@@ -55,38 +55,20 @@ function playRound(player, computer) {
     let playerScore = 0;
     let computerScore = 0; 
 
+    console.log(player, computer, i, playRound (player, computer));
+
     if ('Player Wins') {
-        playerScore+1;
+        playerScore++;
     }
     else if ('Computer Wins') {
-        computerScore+1;
+        computerScore++;
     }
-    console.log(player, computer, i, playRound (player, computer));
+    
     console.log(playerScore, computerScore);
     }
 }
 
 game();
-*/
-
-function game() {
-    for (let i = 0; i < 5; i++) {
-       let player = 'paper';
-       let computer = 'rock';
-       let playerScore = 0;
-       let computerScore = 0; 
-   
-       if (player == 'paper' && computer == 'rock' ) {
-           playerScore++;
-       }
-       else if ('Computer Wins') {
-           computerScore++;
-       }
-       console.log(playerScore, computerScore);
-       }
-   }
-   
-   game();
 
 /*Below function check why if console log is deleted, 
 meaning only playRound is left, 
