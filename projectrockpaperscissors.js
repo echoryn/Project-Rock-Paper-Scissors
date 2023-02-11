@@ -1,20 +1,3 @@
-/* function getComputerChoice () {
-const randomNumber = Math.floor(Math.random() * 3) + 1;
-if (randomNumber === 1) {
-    console.log ( 'rock' );
-}
-else if (randomNumber === 2) {
-    console.log ( 'paper' );
-}
-else if (randomNumber === 3) {
-    console.log ( 'scissors' );
-}
-else {
-    console.log ( 'Try again' );
-}
-}
-*/
-
 function getComputerChoice () {
     const randomNumber = Math.floor(Math.random() * 3) + 1;
     let computerAnswer =
@@ -54,7 +37,6 @@ function game() {
     let computer = getComputerChoice(); 
     playRound (player, computer);
     console.log(player, computer, i);
-
     console.log(playerScore, computerScore);
     }
 }
