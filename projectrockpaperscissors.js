@@ -57,10 +57,10 @@ function game() {
 
     console.log(player, computer, i, playRound (player, computer));
 
-    if (oneRound === 'Player Wins') {
+    if (playRound === 'Player Wins') {
         playerScore++;
     }
-    else if (oneRound === 'Computer Wins') {
+    else if (playRound === 'Computer Wins') {
         computerScore++;
     }
 
