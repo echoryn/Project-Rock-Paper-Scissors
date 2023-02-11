@@ -56,8 +56,8 @@ function game() {
     let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
     let player = playerAnswer.toLowerCase();
     let computer = getComputerChoice(); 
-
-    console.log(player, computer, i, playRound (player, computer));
+    playRound (player, computer);
+    console.log(player, computer, i);
 
     console.log(playerScore, computerScore);
     }
