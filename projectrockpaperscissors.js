@@ -43,29 +43,16 @@ function playRound(player, computer) {
      return (oneRound);
  }
 
- const player = "rock";
+ /* const player = "rock"; */
  const computer = getComputerChoice();
  console.log(player, computer, playRound (player, computer));
 
- /*
- let computer = getComputerChoice();
-
+ function game()
  for (let i = 0; i < 5; i++) {
     let playerAnswer = prompt ('Please enter Rock, Paper, or Scissors');
     let player = playerAnswer.toLowerCase();
-    let computer = getComputerChoice();
     console.log(player, computer, i, playRound (player, computer));
 }
-*/
-
-/*
-function game() {
-for (let i = 0; i < 5; i++) {
-    playRound();
-    console.log(i, player, computer, playRound (player, computer));
-    }    
-}
-*/
 
 /*Below function check why if console log is deleted, 
 meaning only playRound is left, 
